@@ -6,7 +6,6 @@
       <class name="tests.ViewMyFormsTest"/>
       <class name="tests.SpecificFormPageTest"/>
       <class name="tests.LoginTest"/>
-      <class name="tests.Basetest"/>
       <class name="tests.SearchAllTest"/>
       <class name="tests.ForgotPasswordTest"/>
       <class name="tests.AccountTest"/>
