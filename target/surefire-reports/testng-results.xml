@@ -2,16 +2,23 @@
 <testng-results skipped="0" failed="3" ignored="0" total="7" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="91861" started-at="2022-04-27T09:10:31Z" finished-at="2022-04-27T09:12:03Z">
+  <suite name="Suite" duration-ms="98330" started-at="2022-05-22T06:19:38Z" finished-at="2022-05-22T06:21:17Z">
     <groups>
     </groups>
-    <test name="Testng" duration-ms="91861" started-at="2022-04-27T09:10:31Z" finished-at="2022-04-27T09:12:03Z">
+    <test name="Testng" duration-ms="98330" started-at="2022-05-22T06:19:38Z" finished-at="2022-05-22T06:21:17Z">
       <class name="tests.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest@3aefe5e5]" name="setup" is-config="true" duration-ms="2436" started-at="2022-04-27T09:11:58Z" finished-at="2022-04-27T09:12:01Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@4c5204af]" name="setup" is-config="true" duration-ms="2465" started-at="2022-05-22T06:21:11Z" finished-at="2022-05-22T06:21:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1041ebba]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginFailed()[pri:1, instance:tests.LoginTest@3aefe5e5]" name="loginFailed" duration-ms="1441" started-at="2022-04-27T09:12:01Z" description="Test incorect login information" finished-at="2022-04-27T09:12:02Z">
+        <test-method status="FAIL" signature="loginFailed()[pri:1, instance:tests.LoginTest@4c5204af]" name="loginFailed" duration-ms="2189" started-at="2022-05-22T06:21:14Z" description="Test incorect login information" finished-at="2022-05-22T06:21:16Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Sorry, either your username or password was incorrect] but found [Sorry, either your username or password was incorrect.]]]>
@@ -60,75 +67,89 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFailed -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3aefe5e5]" name="failedTest" is-config="true" duration-ms="179" started-at="2022-04-27T09:12:02Z" finished-at="2022-04-27T09:12:02Z">
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@4c5204af]" name="failedTest" is-config="true" duration-ms="159" started-at="2022-05-22T06:21:16Z" finished-at="2022-05-22T06:21:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginFailed status=FAILURE method=LoginTest.loginFailed()[pri:1, instance:tests.LoginTest@3aefe5e5] output={null}]]]>
+                <![CDATA[[TestResult name=loginFailed status=FAILURE method=LoginTest.loginFailed()[pri:1, instance:tests.LoginTest@4c5204af] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@3aefe5e5]" name="tearDown" is-config="true" duration-ms="608" started-at="2022-04-27T09:12:02Z" finished-at="2022-04-27T09:12:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@4c5204af]" name="tearDown" is-config="true" duration-ms="588" started-at="2022-05-22T06:21:16Z" finished-at="2022-05-22T06:21:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.ViewMyFormsTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ViewMyFormsTest@47d90b9e]" name="setup" is-config="true" duration-ms="3602" started-at="2022-04-27T09:10:31Z" finished-at="2022-04-27T09:10:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="dropDownFail()[pri:0, instance:tests.ViewMyFormsTest@47d90b9e]" name="dropDownFail" duration-ms="9639" started-at="2022-04-27T09:10:35Z" finished-at="2022-04-27T09:10:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropDownFail -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ViewMyFormsTest@47d90b9e]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-04-27T09:10:44Z" finished-at="2022-04-27T09:10:44Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ViewMyFormsTest@515f4131]" name="setup" is-config="true" duration-ms="5288" started-at="2022-05-22T06:19:38Z" finished-at="2022-05-22T06:19:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=dropDownFail status=SUCCESS method=ViewMyFormsTest.dropDownFail()[pri:0, instance:tests.ViewMyFormsTest@47d90b9e] output={null}]]]>
+                <![CDATA[org.testng.TestRunner@1041ebba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dropDownFail()[pri:0, instance:tests.ViewMyFormsTest@515f4131]" name="dropDownFail" duration-ms="9641" started-at="2022-05-22T06:19:44Z" finished-at="2022-05-22T06:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownFail -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ViewMyFormsTest@515f4131]" name="failedTest" is-config="true" duration-ms="0" started-at="2022-05-22T06:19:54Z" finished-at="2022-05-22T06:19:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dropDownFail status=SUCCESS method=ViewMyFormsTest.dropDownFail()[pri:0, instance:tests.ViewMyFormsTest@515f4131] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ViewMyFormsTest@47d90b9e]" name="tearDown" is-config="true" duration-ms="637" started-at="2022-04-27T09:10:44Z" finished-at="2022-04-27T09:10:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ViewMyFormsTest@515f4131]" name="tearDown" is-config="true" duration-ms="626" started-at="2022-05-22T06:19:54Z" finished-at="2022-05-22T06:19:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.ViewMyFormsTest -->
       <class name="tests.SearchAllTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SearchAllTest@149e0f5d]" name="setup" is-config="true" duration-ms="2394" started-at="2022-04-27T09:10:45Z" finished-at="2022-04-27T09:10:47Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.SearchAllTest@3f3ddbd9]" name="setup" is-config="true" duration-ms="2922" started-at="2022-05-22T06:19:54Z" finished-at="2022-05-22T06:19:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1041ebba]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="isDisplayed()[pri:0, instance:tests.SearchAllTest@149e0f5d]" name="isDisplayed" duration-ms="29499" started-at="2022-04-27T09:10:47Z" description="Checks if message is desplayed" finished-at="2022-04-27T09:11:17Z">
+        <test-method status="FAIL" signature="isDisplayed()[pri:0, instance:tests.SearchAllTest@3f3ddbd9]" name="isDisplayed" duration-ms="31172" started-at="2022-05-22T06:19:57Z" description="Checks if message is desplayed" finished-at="2022-05-22T06:20:28Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#MessageLabel"}
-  (Session info: chrome=100.0.4896.127)
+  (Session info: chrome=101.0.4951.67)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'MP1ZNVJ4', ip: '192.168.67.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+System info: host: 'LAPTOP-ZIVS', ip: '192.168.67.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c77ff41ad48b77f7622573355204042d, findElement {using=css selector, value=#MessageLabel}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52486}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52486/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c77ff41ad48b77f7622573355204042d]]>
+Command: [9ae07176b2e260a6ab9c83337a40316a, findElement {using=css selector, value=#MessageLabel}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59832/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ae07176b2e260a6ab9c83337a40316a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#MessageLabel"}
-  (Session info: chrome=100.0.4896.127)
+  (Session info: chrome=101.0.4951.67)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'MP1ZNVJ4', ip: '192.168.67.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+System info: host: 'LAPTOP-ZIVS', ip: '192.168.67.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c77ff41ad48b77f7622573355204042d, findElement {using=css selector, value=#MessageLabel}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52486}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52486/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c77ff41ad48b77f7622573355204042d
+Command: [9ae07176b2e260a6ab9c83337a40316a, findElement {using=css selector, value=#MessageLabel}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59832/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ae07176b2e260a6ab9c83337a40316a
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -146,9 +167,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
 at PageObject.SearchAllPage.isMsgDisplayed(SearchAllPage.java:37)
-at tests.SearchAllTest.isDisplayed(SearchAllTest.java:24)
+at tests.SearchAllTest.isDisplayed(SearchAllTest.java:31)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -184,93 +205,114 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isDisplayed -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SearchAllTest@149e0f5d]" name="failedTest" is-config="true" duration-ms="172" started-at="2022-04-27T09:11:17Z" finished-at="2022-04-27T09:11:17Z">
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SearchAllTest@3f3ddbd9]" name="failedTest" is-config="true" duration-ms="148" started-at="2022-05-22T06:20:28Z" finished-at="2022-05-22T06:20:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isDisplayed status=FAILURE method=SearchAllTest.isDisplayed()[pri:0, instance:tests.SearchAllTest@149e0f5d] output={null}]]]>
+                <![CDATA[[TestResult name=isDisplayed status=FAILURE method=SearchAllTest.isDisplayed()[pri:0, instance:tests.SearchAllTest@3f3ddbd9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchAllTest@149e0f5d]" name="tearDown" is-config="true" duration-ms="642" started-at="2022-04-27T09:11:17Z" finished-at="2022-04-27T09:11:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchAllTest@3f3ddbd9]" name="tearDown" is-config="true" duration-ms="622" started-at="2022-05-22T06:20:29Z" finished-at="2022-05-22T06:20:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.SearchAllTest -->
       <class name="tests.AccountTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AccountTest@2f7c2f4f]" name="setup" is-config="true" duration-ms="2418" started-at="2022-04-27T09:11:44Z" finished-at="2022-04-27T09:11:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="isExist()[pri:0, instance:tests.AccountTest@2f7c2f4f]" name="isExist" duration-ms="10662" started-at="2022-04-27T09:11:47Z" description="Checks if the update state exist" finished-at="2022-04-27T09:11:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isExist -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.AccountTest@2f7c2f4f]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-04-27T09:11:58Z" finished-at="2022-04-27T09:11:58Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.AccountTest@6c2d4cc6]" name="setup" is-config="true" duration-ms="2902" started-at="2022-05-22T06:20:57Z" finished-at="2022-05-22T06:21:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isExist status=SUCCESS method=AccountTest.isExist()[pri:0, instance:tests.AccountTest@2f7c2f4f] output={null}]]]>
+                <![CDATA[org.testng.TestRunner@1041ebba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="isExist()[pri:0, instance:tests.AccountTest@6c2d4cc6]" name="isExist" duration-ms="10943" started-at="2022-05-22T06:21:00Z" description="Checks if the update state exist" finished-at="2022-05-22T06:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isExist -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.AccountTest@6c2d4cc6]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-05-22T06:21:11Z" finished-at="2022-05-22T06:21:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isExist status=SUCCESS method=AccountTest.isExist()[pri:0, instance:tests.AccountTest@6c2d4cc6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AccountTest@2f7c2f4f]" name="tearDown" is-config="true" duration-ms="625" started-at="2022-04-27T09:11:58Z" finished-at="2022-04-27T09:11:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AccountTest@6c2d4cc6]" name="tearDown" is-config="true" duration-ms="614" started-at="2022-05-22T06:21:11Z" finished-at="2022-05-22T06:21:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.AccountTest -->
       <class name="tests.SpecificFormPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SpecificFormPageTest@1184ab05]" name="setup" is-config="true" duration-ms="2435" started-at="2022-04-27T09:11:18Z" finished-at="2022-04-27T09:11:20Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.SpecificFormPageTest@74518890]" name="setup" is-config="true" duration-ms="2947" started-at="2022-05-22T06:20:29Z" finished-at="2022-05-22T06:20:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1041ebba]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="currentPage()[pri:0, instance:tests.SpecificFormPageTest@1184ab05]" name="currentPage" duration-ms="17236" started-at="2022-04-27T09:11:20Z" description="This test checks page&#039;s title" finished-at="2022-04-27T09:11:37Z">
+        <test-method status="PASS" signature="currentPage()[pri:0, instance:tests.SpecificFormPageTest@74518890]" name="currentPage" duration-ms="18053" started-at="2022-05-22T06:20:32Z" description="This test checks page&#039;s title" finished-at="2022-05-22T06:20:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- currentPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SpecificFormPageTest@1184ab05]" name="tearDown" is-config="true" duration-ms="627" started-at="2022-04-27T09:11:37Z" finished-at="2022-04-27T09:11:38Z">
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SpecificFormPageTest@74518890]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-05-22T06:20:50Z" finished-at="2022-05-22T06:20:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=currentPage status=SUCCESS method=SpecificFormPageTest.currentPage()[pri:0, instance:tests.SpecificFormPageTest@74518890] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SpecificFormPageTest@74518890]" name="tearDown" is-config="true" duration-ms="602" started-at="2022-05-22T06:20:50Z" finished-at="2022-05-22T06:20:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SpecificFormPageTest@1184ab05]" name="failedTest" is-config="true" duration-ms="0" started-at="2022-04-27T09:11:37Z" finished-at="2022-04-27T09:11:37Z">
+      </class> <!-- tests.SpecificFormPageTest -->
+      <class name="tests.ForgotPasswordTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ForgotPasswordTest@14c053c6]" name="setup" is-config="true" duration-ms="2912" started-at="2022-05-22T06:20:51Z" finished-at="2022-05-22T06:20:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=currentPage status=SUCCESS method=SpecificFormPageTest.currentPage()[pri:0, instance:tests.SpecificFormPageTest@1184ab05] output={null}]]]>
+                <![CDATA[org.testng.TestRunner@1041ebba]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- failedTest -->
-      </class> <!-- tests.SpecificFormPageTest -->
-      <class name="tests.ForgotPasswordTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ForgotPasswordTest@1b1473ab]" name="setup" is-config="true" duration-ms="2621" started-at="2022-04-27T09:11:38Z" finished-at="2022-04-27T09:11:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="isRestoreAvailable()[pri:0, instance:tests.ForgotPasswordTest@1b1473ab]" name="isRestoreAvailable" duration-ms="1873" started-at="2022-04-27T09:11:41Z" description="Checks if it&#039;s posible to restore forgotten details - message shall be appeared" finished-at="2022-04-27T09:11:42Z">
+        <test-method status="PASS" signature="isRestoreAvailable()[pri:0, instance:tests.ForgotPasswordTest@14c053c6]" name="isRestoreAvailable" duration-ms="1311" started-at="2022-05-22T06:20:54Z" description="Checks if it&#039;s posible to restore forgotten details - message shall be appeared" finished-at="2022-05-22T06:20:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isRestoreAvailable -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ForgotPasswordTest@1b1473ab]" name="failedTest" is-config="true" duration-ms="0" started-at="2022-04-27T09:11:42Z" finished-at="2022-04-27T09:11:42Z">
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ForgotPasswordTest@14c053c6]" name="failedTest" is-config="true" duration-ms="0" started-at="2022-05-22T06:20:55Z" finished-at="2022-05-22T06:20:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=isRestoreAvailable status=SUCCESS method=ForgotPasswordTest.isRestoreAvailable()[pri:0, instance:tests.ForgotPasswordTest@1b1473ab] output={null}]]]>
+                <![CDATA[[TestResult name=isRestoreAvailable status=SUCCESS method=ForgotPasswordTest.isRestoreAvailable()[pri:0, instance:tests.ForgotPasswordTest@14c053c6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method status="FAIL" signature="msgText()[pri:0, instance:tests.ForgotPasswordTest@1b1473ab]" name="msgText" duration-ms="1268" started-at="2022-04-27T09:11:42Z" description="Checks if it&#039;s posible to restore forgotten details - message shall be appeared" finished-at="2022-04-27T09:11:44Z">
+        <test-method status="FAIL" signature="msgText()[pri:0, instance:tests.ForgotPasswordTest@14c053c6]" name="msgText" duration-ms="763" started-at="2022-05-22T06:20:55Z" description="Checks if it&#039;s posible to restore forgotten details - message shall be appeared" finished-at="2022-05-22T06:20:56Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [instructions on how to reset your password have been sent to the email address registered with the username provided.] but found [Instructions on how to reset your password have been sent to the email address registered with the username provided.]]]>
@@ -319,18 +361,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- msgText -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ForgotPasswordTest@1b1473ab]" name="failedTest" is-config="true" duration-ms="186" started-at="2022-04-27T09:11:44Z" finished-at="2022-04-27T09:11:44Z">
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ForgotPasswordTest@14c053c6]" name="failedTest" is-config="true" duration-ms="137" started-at="2022-05-22T06:20:56Z" finished-at="2022-05-22T06:20:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=msgText status=FAILURE method=ForgotPasswordTest.msgText()[pri:0, instance:tests.ForgotPasswordTest@1b1473ab] output={null}]]]>
+                <![CDATA[[TestResult name=msgText status=FAILURE method=ForgotPasswordTest.msgText()[pri:0, instance:tests.ForgotPasswordTest@14c053c6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ForgotPasswordTest@1b1473ab]" name="tearDown" is-config="true" duration-ms="629" started-at="2022-04-27T09:11:44Z" finished-at="2022-04-27T09:11:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ForgotPasswordTest@14c053c6]" name="tearDown" is-config="true" duration-ms="587" started-at="2022-05-22T06:20:56Z" finished-at="2022-05-22T06:20:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

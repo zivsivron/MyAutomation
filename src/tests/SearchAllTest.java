@@ -6,9 +6,16 @@ import org.testng.annotations.Test;
 import PageObject.LoginPage;
 import PageObject.MyFormsPage;
 import PageObject.SearchAllPage;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 
+@Feature("search engine")
 public class SearchAllTest extends BaseTest{
 
+	@Severity(SeverityLevel.CRITICAL)
+	@Story("as user would like to use search engine")
 	@Test(description = "Checks if message is desplayed")
 	public void isDisplayed() throws InterruptedException {
 		LoginPage loginPage = new LoginPage(driver);

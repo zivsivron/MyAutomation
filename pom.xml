@@ -14,6 +14,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
+		<aspectj.version>1.9.2</aspectj.version>
 	</properties>
 
 	<dependencies>
@@ -22,6 +23,12 @@
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>4.0.0</version>
+		</dependency>
+			<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>${aspectj.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -35,6 +42,12 @@
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
 			<version>5.0.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.12.1</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
@@ -85,7 +98,14 @@
 					<suiteXmlFiles>
 						<suiteXmlFiles>testng.xml</suiteXmlFiles>
 					</suiteXmlFiles>
+					<argLine>
+						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+					</argLine>
 					<systemProperties>
+					<property>
+							<name>allure.results.directory</name>
+							<value>${basedir}/target/allure-results</value>
+						</property>
 					</systemProperties>
 				</configuration>
 				<dependencies>
@@ -95,6 +115,12 @@
 						<version>3.0.0-M4</version>
 					</dependency>
 				</dependencies>
+			</plugin>
+			<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-maven -->
+			<plugin>
+				<groupId>io.qameta.allure</groupId>
+				<artifactId>allure-maven</artifactId>
+				<version>2.10.0</version>
 			</plugin>
 		</plugins>
 	</build>
